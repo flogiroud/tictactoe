@@ -156,5 +156,4 @@ The project uses the [audioplayers](https://pub.dev/packages/audioplayers) packa
 ## Notes
 
 - AI has been used in this project for unit test generation, ai algorithms, code completion and the creation of repetitive boilerplate code
-- For a project of this size a layer-first architecture would have been more appropriate. However a feature-first approach was chosen to align with Betclic's development environment
 - The app has been developed/tested on iPhone 16 Pro iOS 26.1, and tested on Samsung Galaxy S8+ Android 9
