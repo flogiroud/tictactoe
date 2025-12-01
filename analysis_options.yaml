@@ -1,0 +1,43 @@
+include: package:flutter_lints/flutter.yaml
+analyzer:
+  plugins:
+    - custom_lint
+  exclude:
+    - lib/.env.dart
+    - "**/*.gr.dart"
+  errors:
+    missing_required_param: warning
+    missing_return: warning
+    todo: warning
+    invalid_annotation_target: ignore
+    body_might_complete_normally_nullable: ignore
+
+linter:
+  rules:
+    await_only_futures: true
+    unawaited_futures: true
+    avoid_single_cascade_in_expression_statements: true
+    unnecessary_string_interpolations: true
+    unnecessary_brace_in_string_interps: true
+    prefer_interpolation_to_compose_strings: true
+    prefer_typing_uninitialized_variables: true
+    unnecessary_lambdas: true
+    avoid_types_on_closure_parameters: true
+    constant_identifier_names: false
+    non_constant_identifier_names: false
+    prefer_is_not_operator: true
+    prefer_single_quotes: true
+    avoid_function_literals_in_foreach_calls: true
+    use_key_in_widget_constructors: false
+    overridden_fields: false
+    avoid_renaming_method_parameters: false
+    sized_box_for_whitespace: true
+    avoid_unnecessary_containers: true
+    prefer_const_constructors: true
+    prefer_const_declarations: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_const_constructors_in_immutables: true
+    prefer_relative_imports: false
+    avoid_relative_lib_imports: true
+    always_use_package_imports: true
+    implementation_imports: false

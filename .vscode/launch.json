@@ -1,0 +1,23 @@
+{
+   "version": "0.2.0",
+   "configurations": [
+      {
+         "name": "Tic Tac Toe [debug]",
+         "request": "launch",
+         "type": "dart",
+         "flutterMode": "debug",
+      },
+      {
+         "name": "Tic Tac Toe [profile]",
+         "request": "launch",
+         "type": "dart",
+         "flutterMode": "profile",
+      },
+      {
+         "name": "Tic Tac Toe [release]",
+         "request": "launch",
+         "type": "dart",
+         "flutterMode": "release",
+      },
+   ]
+}
