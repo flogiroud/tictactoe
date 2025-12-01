@@ -2,6 +2,10 @@
 
 A Flutter implementation of the classic Tic Tac Toe game
 
+
+https://github.com/user-attachments/assets/596d190c-1825-4599-8095-b253d151b991
+
+
 ## Using FVM (Flutter Version Manager)
 
 This project uses FVM to ensure a consistent Flutter/Dart version. See the official FVM Getting Started guide: [FVM documentation](https://fvm.app/documentation/getting-started).
@@ -74,7 +78,7 @@ Each feature follows Clean Architecture with three distinct layers:
 
 ### State management & Dependency Injection
 
-- **Riverpod** (with hooks, `riverpod_annotation` and code generation):
+- **Riverpod** (with hooks, `riverpod_annotation` and code generation)
 
 
 ### Serialization
