@@ -2,6 +2,10 @@
 
 A Flutter implementation of the classic Tic Tac Toe game
 
+
+https://github.com/user-attachments/assets/596d190c-1825-4599-8095-b253d151b991
+
+
 ## Using FVM (Flutter Version Manager)
 
 This project uses FVM to ensure a consistent Flutter/Dart version. See the official FVM Getting Started guide: [FVM documentation](https://fvm.app/documentation/getting-started).
@@ -74,7 +78,7 @@ Each feature follows Clean Architecture with three distinct layers:
 
 ### State management & Dependency Injection
 
-- **Riverpod** (with hooks, `riverpod_annotation` and code generation):
+- **Riverpod** (with hooks, `riverpod_annotation` and code generation)
 
 
 ### Serialization
@@ -152,5 +156,4 @@ The project uses the [audioplayers](https://pub.dev/packages/audioplayers) packa
 ## Notes
 
 - AI has been used in this project for unit test generation, ai algorithms, code completion and the creation of repetitive boilerplate code
-- For a project of this size a layer-first architecture would have been more appropriate. However a feature-first approach was chosen to align with Betclic's development environment
 - The app has been developed/tested on iPhone 16 Pro iOS 26.1, and tested on Samsung Galaxy S8+ Android 9
